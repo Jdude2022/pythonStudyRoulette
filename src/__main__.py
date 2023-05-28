@@ -1,9 +1,12 @@
 
 # Impliment through command line
-user_input = input("Type Y to continue anything else to Quit")
+from src.roulette.data.PickASubject import PickASubject
 
-while user_input == "Y":
+user_input = input("Type Y to continue anything else to Quit ")
+
+while user_input.upper() == "Y":
     print("Hello World")
-    user_input == input("Type Y to continue")
+    PickASubject.main()
+    user_input = input("Type Y to continue ")
 else:
     print("GoodBye")
