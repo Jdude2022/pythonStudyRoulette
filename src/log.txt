@@ -1,0 +1,6 @@
+Time Keeping Log
+
+Each X is roughly 30m
+
+Log:
+    X X
