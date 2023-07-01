@@ -1,10 +1,19 @@
 """The main pick a subject script."""
+from src.roulette.data.subject.SubjectBuilder import SubjectBuilder
+
 
 class PickASubject:
     """Basic starting logic"""
     @staticmethod
     def main():
-        print("Yolo")
+        subject_list = []
+        if len(subject_list) != 0:
+            pass
+        else:
+            print("No subjects detected, Moving to create a subject.")
+            new_subject = SubjectBuilder.build_subject()
+            # call build subject
+
         # if subjects in db:
             # if edit subjects selected:
                 # edit the subjects
