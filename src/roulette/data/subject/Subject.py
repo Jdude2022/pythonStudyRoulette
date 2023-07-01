@@ -7,8 +7,9 @@ class Subject:
         self.__name: str = name
         self.__num_topics: int = num_topics
         self.__topic_list: list = []
-        while self.num_topics != len(self.topic_list) + 1:
-            self.add_topic()
+        # TODO
+        # while self.num_topics != len(self.topic_list) + 1:
+        #    self.add_topic()
 
     @property
     def name(self):
